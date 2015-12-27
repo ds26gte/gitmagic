@@ -1,0 +1,35 @@
+The `for-kindle-paperwhite` branch of this repo contains a
+massaging of Ben Lynn’s _Git Magic_ source,
+http://github.com/blynn/gitmagic, to make it suitable for
+conversion to a Kindle document using Asciidoctor.
+
+= How to
+
+Install `asciidoctor-epub3`: details at
+https://github.com/asciidoctor/asciidoctor-epub3.
+
+After cloning this repo:
+
+  cd gitmagic
+  cd en
+  asciidoctor-epub3 -D ~/kindlelib -a ebook-format=kf8
+
+This creates `gitmagic.mobi` in `~/kindlelib`. There are two ways
+to put this file on your Kindle:
+
+1. Email `gitmagic.mobi` to your Kindle address.
+
+2. Alternatively: connect your Kindle to your computer’s USB
+   port. It should show up as the directory with a name like
+   `/media/yourname/Kindle`. Then
++
+
+   cp -p ~/kindlelib/gitmagic.mobi /media/yourname/Kindle/documents
+
++
+Eject and unplug your Kindle.
+
+With either method, you get to use any of typefaces offered by
+the Kindle. However, with method 2, you additionally get to use
+the “Publisher Font”, viz., the typeface configured by
+`asciidoctor-epub3`, Noto Serif. Method 1 doesn’t allow this yet.
