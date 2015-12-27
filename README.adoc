@@ -1,4 +1,4 @@
-The `for-kindle-paperwhite` branch of this repo contains a
+The `for-kindle` branch of this repo contains a
 massaging of Ben Lynn’s _Git Magic_ source,
 http://github.com/blynn/gitmagic, to make it suitable for
 conversion to a Kindle document using Asciidoctor.
@@ -13,6 +13,8 @@ After cloning this repo:
   cd gitmagic
   cd en
   asciidoctor-epub3 -D ~/kindlelib -a ebook-format=kf8
+
+(_``cd de`` oben für die deutsche Version._)
 
 This creates `gitmagic.mobi` in `~/kindlelib`. There are two ways
 to put this file on your Kindle:

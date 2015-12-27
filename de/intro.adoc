@@ -28,7 +28,7 @@ vorne beginnen.
 
 === Versionsverwaltung ===
 
-Beim Editieren kannst Du Deine Datei durch 'Speichern unter ...' mit einem
+Beim Editieren kannst Du Deine Datei durch ‘Speichern unter ...’ mit einem
 neuen Namen abspeichern oder Du kopierst sie vor dem Speichern irgendwo hin,
 um die alte Version zu erhalten. Außerdem kannst Du sie komprimieren, um
 Speicherplatz zu sparen. Das ist eine primitive und mühselige Form der
@@ -61,7 +61,7 @@ Kopie der ganzen Datei.
 Nun stell Dir ein ganz kompliziertes Computerspiel vor. So schwierig zu
 lösen, dass viele erfahrene Spieler auf der ganzen Welt beschließen, sich
 zusammen zu tun und ihre gespeicherten Spielstände auszutauschen, um das
-Spiel zu beenden. 'Speedruns' sind Beispiele aus dem echten Leben: Spieler,
+Spiel zu beenden. ‘Speedruns’ sind Beispiele aus dem echten Leben: Spieler,
 die sich in unterschiedlichen Spielebenen des selben Spiels spezialisiert
 haben, arbeiten zusammen, um erstaunliche Ergebnisse zu erzielen.
 
@@ -93,7 +93,7 @@ zentralisierten Systeme verstanden werden. Wenn Spieler vom Hauptserver
 herunterladen, erhalten sie jedes gespeichertes Spiel, nicht nur das zuletzt
 gespeicherte. Es ist, als ob der Hauptserver gespiegelt wird.
 
-Dieses erste 'Cloning' kann teuer sein, vor allem, wenn eine lange
+Dieses erste ‘Cloning’ kann teuer sein, vor allem, wenn eine lange
 Geschichte existiert, aber auf Dauer wird es sich lohnen. Ein unmittelbarer
 Vorteil ist, wenn aus irgendeinem Grund ein älterer Stand benötigt wird, ist
 keine Kommunikation mit dem Hauptserver notwendig.
@@ -101,10 +101,10 @@ keine Kommunikation mit dem Hauptserver notwendig.
 === Ein dummer Aberglaube ===
 
 Ein weit verbreitetes Missverständnis ist, dass verteilte System ungeeignet
-sind für Projekte, die ein offizielles zentrales 'Repository'
+sind für Projekte, die ein offizielles zentrales ‘Repository’
 benötigen. Nichts könnte weiter von der Wahrheit entfernt sein. Jemanden zu
-fotografieren, stiehlt nicht dessen Seele. Genauso wenig setzt das 'Clonen'
-des zentralen 'Repository' dessen Bedeutung herab.
+fotografieren, stiehlt nicht dessen Seele. Genauso wenig setzt das ‘Clonen’
+des zentralen ‘Repository’ dessen Bedeutung herab.
 
 Eine gute erste Annäherung ist, dass alles, was eine zentralisierte
 Versionsverwaltung kann, ein gut durchdachtes verteiltes System besser
@@ -124,7 +124,7 @@ geöffnet werden. Eines Tages brauchst Du vielleicht dringend einen
 Schraubendreher, dann bist du froh, mehr als nur einen einfachen
 Flaschenöffner bei dir zu haben.
 
-=== 'Merge' Konflikte ===
+=== ‘Merge’ Konflikte ===
 
 Für diesen Punkt ist unsere Computerspielanalogie ungeeignet. Stattdessen
 stellen wir uns wieder vor, wir editieren ein Dokument.
@@ -136,9 +136,9 @@ füge sie zusammen, damit fließen beide Änderungen in das Dokument mit ein.
 
 Nun stell Dir vor beide, Alice und Bob, machen Änderungen in der selben
 Zeile. Dann ist es unmöglich, ohne menschlichen Eingriff fortzufahren. Die
-zweite Person, welche die Datei hoch lädt, wird über einen _'Merge'
+zweite Person, welche die Datei hoch lädt, wird über einen _’Merge’
 Konflikt_ informiert und muss entscheiden, welche Änderung übernommen wird
-oder die ganze Zeile überarbeiten. 
+oder die ganze Zeile überarbeiten.
 
 Es können noch weitaus kompliziertere Situationen
 entstehen. Versionsverwaltungssysteme behandeln die einfacheren Fälle selbst
