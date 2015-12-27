@@ -1,0 +1,25 @@
+= Git Magic =
+Ben Lynn
+August 2007
+
+include::preface.adoc[]
+
+include::intro.adoc[]
+
+include::basic.adoc[]
+
+include::clone.adoc[]
+
+include::branch.adoc[]
+
+include::history.adoc[]
+
+include::multiplayer.adoc[]
+
+include::grandmaster.adoc[]
+
+include::secrets.adoc[]
+
+include::drawbacks.adoc[]
+
+include::translate.adoc[]
