@@ -8,9 +8,10 @@ conversion to a Kindle document using Asciidoctor.
 Install `asciidoctor-epub3`: details at
 https://github.com/asciidoctor/asciidoctor-epub3.
 
-After cloning this repo:
+After cloning this (`gitmagic`) repo:
 
   cd gitmagic
+  git checkout for-kindle
   cd en
   asciidoctor-epub3 -D ~/kindlelib -a ebook-format=kf8
 
