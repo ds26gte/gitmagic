@@ -2,6 +2,10 @@
 Ben Lynn
 August 2007
 
+[%hardbreaks]
+Ben Lynn
+August 2007
+
 include::preface.adoc[]
 
 include::intro.adoc[]
